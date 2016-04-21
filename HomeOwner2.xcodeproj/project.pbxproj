@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3FEDEC991CC7BBE10017DA3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEC981CC7BBE10017DA3F /* AppDelegate.swift */; };
-		3FEDEC9B1CC7BBE10017DA3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEC9A1CC7BBE10017DA3F /* ViewController.swift */; };
 		3FEDEC9E1CC7BBE10017DA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDEC9C1CC7BBE10017DA3F /* Main.storyboard */; };
 		3FEDECA01CC7BBE10017DA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDEC9F1CC7BBE10017DA3F /* Assets.xcassets */; };
 		3FEDECA31CC7BBE10017DA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDECA11CC7BBE10017DA3F /* LaunchScreen.storyboard */; };
+		3FEDECAB1CC7BC310017DA3F /* Item Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDECAA1CC7BC310017DA3F /* Item Class.swift */; };
+		3FEDECAD1CC7BC900017DA3F /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDECAC1CC7BC900017DA3F /* ItemStore.swift */; };
+		3FEDECAF1CC91BC20017DA3F /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDECAE1CC91BC20017DA3F /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FEDEC951CC7BBE10017DA3F /* HomeOwner2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeOwner2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEDEC981CC7BBE10017DA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEDEC9A1CC7BBE10017DA3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FEDEC9D1CC7BBE10017DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEDEC9F1CC7BBE10017DA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEDECA21CC7BBE10017DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FEDECA41CC7BBE10017DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEDECAA1CC7BC310017DA3F /* Item Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item Class.swift"; path = "../Item Class.swift"; sourceTree = "<group>"; };
+		3FEDECAC1CC7BC900017DA3F /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemStore.swift; path = ../ItemStore.swift; sourceTree = "<group>"; };
+		3FEDECAE1CC91BC20017DA3F /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3FEDEC981CC7BBE10017DA3F /* AppDelegate.swift */,
-				3FEDEC9A1CC7BBE10017DA3F /* ViewController.swift */,
+				3FEDECAE1CC91BC20017DA3F /* ItemsViewController.swift */,
+				3FEDECAA1CC7BC310017DA3F /* Item Class.swift */,
+				3FEDECAC1CC7BC900017DA3F /* ItemStore.swift */,
 				3FEDEC9C1CC7BBE10017DA3F /* Main.storyboard */,
 				3FEDEC9F1CC7BBE10017DA3F /* Assets.xcassets */,
 				3FEDECA11CC7BBE10017DA3F /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEDEC9B1CC7BBE10017DA3F /* ViewController.swift in Sources */,
+				3FEDECAF1CC91BC20017DA3F /* ItemsViewController.swift in Sources */,
+				3FEDECAB1CC7BC310017DA3F /* Item Class.swift in Sources */,
+				3FEDECAD1CC7BC900017DA3F /* ItemStore.swift in Sources */,
 				3FEDEC991CC7BBE10017DA3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				3FEDECA91CC7BBE10017DA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
